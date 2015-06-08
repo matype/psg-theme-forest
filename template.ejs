@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title><%= projectName %></title>
+        <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+        <style><%- codeStyle %><%- tmplStyle %><%- css %></style>
+    </head>
+    <body>
+        <header class="masthead">
+        <h1><%= projectName %></h1>
+        </header>
+        <% maps.forEach(function (map) { %>
+        <div class="section">
+            <div class="col"><%- map.html %></div>
+            <div class="col"><pre class="code"><code class="lang-css"><%- map.rule %></code></pre></div>
+        </div>
+        <% })%>
+    </body>
+</html>

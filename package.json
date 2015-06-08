@@ -1,0 +1,24 @@
+{
+  "name": "psg-theme-forest",
+  "version": "0.0.1",
+  "description": "'Forest': Theme of postcss-style-guide",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morishitter/psg-theme-forest/git"
+  },
+  "keywords": [
+    "psg-theme",
+    "style-guide",
+    "postcss"
+  ],
+  "author": "Masaaki Morishita",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "postcss-style-guide": "^0.3.0",
+    "tape": "^4.0.0"
+  }
+}
