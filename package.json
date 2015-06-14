@@ -1,6 +1,6 @@
 {
   "name": "psg-theme-forest",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "'Forest': Theme of postcss-style-guide",
   "scripts": {
     "test": "tape test"
@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "postcss-style-guide": "^0.3.0",
+    "postcss-style-guide": "^0.4.0",
     "tape": "^4.0.0"
   }
 }
